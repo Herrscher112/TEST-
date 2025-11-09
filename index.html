@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-">
+    <title>Ronaldo need your halp</title>
+</head>
+<body>
+    
+    <h1>ชั้นคือ Ronaldo<h1>
+    <h2>Projact พาพี่กลับไทย</h2>
+    <h3>สมทบทุนไปเตะที่ หลัง ม.เกษตร</h3>
+    <button style="display: block; margin: 3% auto;">Donate to Ronaldo</button>
+    <input style="display: block; margin: 3% auto;" type ="text" id="numberInput" placeholder="พี่โด้เอง     พร้อมโอนตรงนี้อิอิ">
+    <script>
+    const input = document.getElementById("numberInput");
+    input.addEventListener("input", () => {
+    input.value = input.value.replace(/[^0-9]/g, '');
+    });
+    </script>
+
+    <img src="ronaldo.jpg" width="600px"height="400px"style="display: block; margin: 10% auto;">
+    
+
+</body>
+</html>
